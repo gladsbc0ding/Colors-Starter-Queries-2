@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+
+#column-1 {
+  background: DeepPink;
+}
+
+#column-2 {
+  background: Chartreuse;
+}
+
+#column-3 {
+  background: DeepSkyBlue;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #e3e3e3;
+}
+
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+  header {
+    background-color: Navy;
+  }
+
+ .col-3 {
+       width: 50%;
+ }
+
+  #column-1 {
+    background-color: Plum;
+
+  }
+
+  #column-2 {
+    background-color: PaleGoldenRod;
+  }
+
+  #column-3 {
+    background-color: CornflowerBlue;
+    width: 100%;
+  }
+
+  footer {
+    background-color: Navy;
+  }
+
+
+
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color: Black;
+  }
+
+.col-3 {
+     width:  33.3%;
+}
+  #column-1 {
+    background-color: Cyan ;
+  }
+
+  #column-2 {
+    background-color: Gold;
+  }
+
+  #column-3 {
+    background-color: HotPink;
+    width: 33.3%;
+  }
+
+  footer {
+    background-color: Black;
+  }
+
+}
